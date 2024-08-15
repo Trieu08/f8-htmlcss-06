@@ -313,6 +313,14 @@ a {
     background: #fbfaff;
 }
 
+.projects-item__img {
+    transition: 0.5s ease;
+}
+
+.projects-item__img:hover {
+    scale: 1.1;
+}
+
 .projects-item__info {
     position: relative;
     z-index: 1;
@@ -337,6 +345,10 @@ a {
     font-weight: 700;
     line-height: 1.67;
     text-decoration-line: underline;
+}
+
+.projects-item__link:hover {
+    color: #5d3bee;
 }
 
 .projects-item__icon {
